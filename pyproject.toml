@@ -1,7 +1,15 @@
 [project]
-name = "mastering-git"
-version = "0.1.0"
-description = "Add your description here"
+name = "s1b3r4-scanner"
+version = "2.0.0"
+description = "Professional Nmap automation tool for CCNA and Security+ labs"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+authors = [
+    { name = "Mohammed Saber", email = "muhammed.saber@proton.me" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "python-nmap>=0.7.1",
+]
+
+[tool.uv]
+dev-dependencies = []
