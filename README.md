@@ -3,13 +3,13 @@
 
 This project was developed as part of my graduation project and cybersecurity studies. It provides a streamlined interface for performing common Nmap scans (SYN, UDP, and Comprehensive) with automated result parsing and service detection.
 
-##Features
+## Features
 * **Multiple Scan Modes:** Support for Stealth SYN scans, UDP scans, and full Comprehensive OS/Service detection.
 * **Custom Port Ranges:** Allows users to define specific ports instead of scanning the full default range.
 * **Service & Version Detection:** Automatically parses and displays service names and version numbers for open ports.
 * **Clean Output:** Results are displayed in a formatted table for easy readability.
 
-##Requirements
+## Requirements
 
 To run the **S1B3R4 Network Scanner**, ensure your environment meets the following criteria:
 
@@ -20,7 +20,7 @@ To run the **S1B3R4 Network Scanner**, ensure your environment meets the followi
 
 > **Note from the dev:** I know it might seem "weird" that you need Nmap installed to use this tool, but this is a specialized automation wrapper designed to streamline professional audits. Stay tuned for future versions where I might integrate native socket scanning!
 
-##Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
