@@ -26,3 +26,4 @@ To run the **S1B3R4 Network Scanner**, ensure your environment meets the followi
    ```bash
    git clone [https://github.com/sabero01/S1B3R4-Network-Scanner-v2.0.git](https://github.com/sabero01/S1B3R4-Network-Scanner-v2.0.git)
    cd S1B3R4-Network-Scanner-v2.0
+   python main.py
